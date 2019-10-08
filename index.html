@@ -106,5 +106,24 @@
        </td>
     </tr>
     </table>
+    <form action="handler.php" method="post">
+    <input type="text" placeholder="Имя" required><br>
+    <input type="email" placeholder="E-mail" required><br>
+    <input type="tel" placeholder="Телефон" required><br>
+    <p>Радио-список</p>
+    <p><input type="radio" name="rad" value="yees">yes</p>
+    <p><input type="radio" name="rad" value="no">no</p>
+    <p><input type="radio" name="rad" value="....">....</p>
+    
+    <p>Что ты знаешь?</p>
+    <p><input type="checkbox" name="chek" value="c1">checkbox <br>
+        <input type="checkbox" name="chek" value="c2">radio <br>
+        <input type="checkbox" name="chek" value="c3">поле сообщения <br>
+    </p>
+    <p>
+        <textarea cols="30" rows="10"></textarea>
+    </p>
+    <input type="submit" value="Отправить">
+    </form>
 </body>
 </html>
